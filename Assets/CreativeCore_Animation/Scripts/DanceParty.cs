@@ -10,7 +10,7 @@ public class DanceParty : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>(); 
        
     }
 
@@ -39,7 +39,7 @@ public class DanceParty : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            anim.SetTrigger("Dance_05");
+            anim.SetTrigger("Dance_Thriller");
         }
 
         if (Input.GetKeyDown(KeyCode.Y))
